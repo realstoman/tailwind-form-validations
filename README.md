@@ -6,7 +6,7 @@ Frontend form validations using Tailwind CSS
 
 ## Demo URL
 
-[https://tailwind-form-validations.vercel.com](https://tailwind-form-validations.vercel.com)
+[https://tailwind-form-validations.vercel.app/](https://tailwind-form-validations.vercel.app/)
 
 ## Setup
 
