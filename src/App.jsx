@@ -24,7 +24,7 @@ function App() {
 
 	return (
 		<div className="flex justify-center items-center min-h-screen px-4">
-			<div className="flex flex-col items-center py-6 sm:justify-center w-full">
+			<div className="flex flex-col items-center py-10 sm:justify-center w-full">
 				<div className="w-full px-6 py-6  bg-white dark:bg-gray-900 shadow-md rounded-md sm:rounded-lg max-w-sm">
 					<form
 						action=""
@@ -184,14 +184,6 @@ function App() {
 							>
 								Create account
 							</button>
-
-							{/* <button
-								type="submit"
-								disabled={!canSubmit}
-								className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-purple-700 rounded-md hover:bg-purple-600 focus:outline-none focus:bg-purple-600 disabled:bg-gradient-to-br disabled:from-gray-100 disabled:to-gray-300 disabled:text-gray-400 disabled:cursor-not-allowed group-invalid:bg-gradient-to-br group-invalid:from-gray-100 group-invalid:to-gray-300 group-invalid:text-gray-400 group-invalid:pointer-events-none group-invalid:opacity-70"
-							>
-								Register
-							</button> */}
 						</div>
 					</form>
 					<div className="mt-4 text-zinc-600 text-md dark:text-zinc-300">
@@ -206,9 +198,9 @@ function App() {
 						</span>
 					</div>
 					<div className="flex items-center w-full my-4">
-						<hr className="w-full" />
+						<hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 w-full" />
 						<p className="px-3 ">OR</p>
-						<hr className="w-full" />
+						<hr className="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 					</div>
 					<div className="my-6 space-y-2">
 						<Button
@@ -222,6 +214,15 @@ function App() {
 							icon={<FiTwitter className="text-xl" />}
 						/>
 					</div>
+				</div>
+				<div className="flex items-center justify-center mt-6 ">
+					<a
+						href="https://github.com/realstoman/tailwind-form-validations"
+						target="__blank"
+						className="text-gray-700 hover:text-gray-900 cursor-pointer underline text-xl"
+					>
+						Github repo
+					</a>
 				</div>
 			</div>
 		</div>
