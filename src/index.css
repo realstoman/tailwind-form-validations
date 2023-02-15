@@ -28,16 +28,12 @@ a:hover {
 }
 
 body {
-	margin: 0;
-	display: flex;
-	place-items: center;
-	min-width: 320px;
-	min-height: 100vh;
-}
-
-h1 {
-	font-size: 3.2em;
-	line-height: 1.1;
+	background: rgb(151, 64, 190);
+	background: radial-gradient(
+		circle,
+		rgba(151, 64, 190, 1) 0%,
+		rgba(168, 199, 235, 1) 100%
+	);
 }
 
 button {
