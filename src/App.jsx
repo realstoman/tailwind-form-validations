@@ -170,12 +170,6 @@ function App() {
 								</span>
 							</div>
 						</div>
-						<a
-							href="#"
-							className="text-xs text-purple-600 hover:text-purple-800 dark:text-purple-300 dark:hover:text-purple-100 hover:underline pt-1"
-						>
-							Forget Password?
-						</a>
 						<div className="flex items-center mt-4">
 							<button
 								type="submit"
